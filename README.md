@@ -5,9 +5,10 @@ a dice-throw game with canvas
 ##  Demand
 * 7/11  √
 * 2/3/12 ×
-* other count into sum
+* 4/5/6/8/9/10 continue
     - 7 ×
-    - except 7,11,2,12 √
+    - 4/5/6/8/9/10 √
+    - 2/3/11/12 continue
 
 ## Design
 Click `throw` , two dice faces will change its number util t second. Then, The points will be displayed and `You Win!` or `You Lose TAT` will be shown.
@@ -20,6 +21,7 @@ canvas
    * `ctx.lineWidth = `
    * `ctx.strokeStyle = "rgb(255, 0, 0)"`
    * `ctx.fillStyle = "rgb(255, 0, 0)"`
+   * `ctx.strokeReact(x, y, w, h) `
    * `ctx.fillReact(x, y, w, h) `
    * `ctx.beginPath()`
    * `ctx.closePath()`
